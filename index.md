@@ -32,8 +32,8 @@
 
 		embedded_svc.settings.enabledFeatures = ['LiveAgent'];
 		embedded_svc.settings.entryFeature = 'LiveAgent';
-  
-    embedded_svc.settings.prepopulatedPrechatFields = {
+		
+		embedded_svc.settings.prepopulatedPrechatFields = {
 		    FirstName: "Test",
 		    LastName: "Test",
 		    Email: "test@test.com",
