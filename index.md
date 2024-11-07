@@ -25,6 +25,12 @@
 		    Subject: "Testing"
 		};
 
+		embedded_svc.settings.extraPrechatFormDetails = [ {
+			"label" : "Site",
+			"value" : window.location.href,
+			"transcriptFields" : [ "Chat_Site__c" ]
+		} ];
+
 		embedded_svc.init(
 			'https://infallibletechie-a-dev-ed.my.salesforce.com',
 			'https://infallibletechie-a-dev-ed.my.salesforce-sites.com/',
